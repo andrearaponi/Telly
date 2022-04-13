@@ -51,6 +51,6 @@ telly config.ini "hello world"
 ---
 
 ## License
->You can check out the full license [here](https://github.com/andrearaponi/Telly/master/LICENSE)
+>You can check out the full license [here](https://github.com/andrearaponi/Telly/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
