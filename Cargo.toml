@@ -1,0 +1,18 @@
+[package]
+name = "telly"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andrea Raponi <andrearaponi@protonmail.com>"]
+description = "A tool to send message from bot telegram"
+readme = "README.md"
+homepage = "https://github.com/andrearaponi/Telly"
+repository = "https://github.com/andrearaponi/Telly"
+keywords = ["cli", "telegram-bot"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
+curl = "0.4.43"
+configparser = "3.0.0"
+urlencoding = "2.1.0"
+
