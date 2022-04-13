@@ -4,7 +4,7 @@ Telly
 
 This is a Rust command line application powered by rust-curl , made to simplify the use of apis bot telegram.
 
-![Telly Preview](http://i.imgur.com/43qFdkN.png)
+![Telly Preview](http://i.imgur.com/y0qZ823.png)
 
 ---
 ## Buy me a coffee
