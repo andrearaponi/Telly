@@ -1,6 +1,6 @@
 Telly
 ============
- [![Current Version](https://img.shields.io/badge/version-0.2.0-green.svg)]
+ ![Current Version](https://img.shields.io/badge/version-0.2.0-green.svg)
 
 This is a Rust command line application powered by rust-curl, made to simplify the use of Telegram bot APIs.
 
