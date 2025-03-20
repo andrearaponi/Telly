@@ -1,8 +1,8 @@
 Telly
 ============
- [![Current Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/IgorAntun/node-chat) 
+ [![Current Version](https://img.shields.io/badge/version-0.2.0-green.svg)]
 
-This is a Rust command line application powered by rust-curl , made to simplify the use of apis bot telegram.
+This is a Rust command line application powered by rust-curl, made to simplify the use of Telegram bot APIs.
 
 ![Telly Preview](http://i.imgur.com/y0qZ823.png)
 
@@ -16,13 +16,14 @@ Whether you use this project, have learned something from it, or just like it, p
 ---
 
 ## Features
-- Send message a specific recipient from bot telegram.
+- Send message to a specific recipient from Telegram bot
+- Send files (documents, images, etc.) with an optional caption
 
 ---
 
 ## Setup
 
-If you don't have rust installed on your machine, you can do it with this command:
+If you don't have Rust installed on your machine, you can do it with this command:
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 Clone this repo to your desktop and run `cargo run` and  `cargo build --release` to install all the dependencies and compile a release version.
@@ -47,6 +48,9 @@ recipient = chatId
 telly config.ini "hello world"
 ```
 
+```shell
+telly config.ini "Here is the requested document" --file path/to/file.pdf
+```
 
 ---
 
